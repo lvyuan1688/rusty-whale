@@ -1,0 +1,29 @@
+[package]
+name = "rusty-whale"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+authors = ["lvyuan1688"]
+description = "Open-source, community-driven agent harness — bring your own model. Inspired by CodeWhale."
+repository = "https://github.com/lvyuan1688/rusty-whale"
+keywords = ["ai", "agent", "coding-agent", "llm", "cli"]
+categories = ["command-line-utilities", "development-tools"]
+
+[dependencies]
+tokio = { version = "1", features = ["full"] }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+toml = "0.8"
+ratatui = "0.28"
+crossterm = "0.28"
+anyhow = "1"
+clap = { version = "4", features = ["derive"] }
+async-trait = "0.1"
+
+[workspace]
+members = [
+    "crates/rusty-whale-core",
+    "crates/rusty-whale-provider",
+    "crates/rusty-whale-verify",
+    "crates/rusty-whale-tui",
+]
