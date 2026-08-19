@@ -1,0 +1,13 @@
+[package]
+name = "rusty-whale-tui"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+description = "Terminal UI for rusty-whale"
+
+[dependencies]
+tokio = { version = "1", features = ["full"] }
+ratatui = "0.28"
+crossterm = "0.28"
+anyhow = "1"
+rusty-whale-core = { path = "../rusty-whale-core" }

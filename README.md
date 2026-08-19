@@ -1,5 +1,7 @@
 # rusty-whale
 
+![Demo](docs/demo.png)
+
 > Open-source, community-driven agent harness — bring your own model.
 > Inspired by [CodeWhale](https://github.com/Hmbown/CodeWhale) (40k+ stars), rewritten from scratch in Rust with a lighter core and stronger verify loop.
 

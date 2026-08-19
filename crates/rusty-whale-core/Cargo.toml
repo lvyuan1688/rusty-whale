@@ -1,0 +1,15 @@
+[package]
+name = "rusty-whale-core"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+description = "Agent loop, state machine, tool dispatch for rusty-whale"
+
+[dependencies]
+tokio = { version = "1", features = ["full"] }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+anyhow = "1"
+async-trait = "0.1"
+rusty-whale-provider = { path = "../rusty-whale-provider" }
+rusty-whale-verify = { path = "../rusty-whale-verify" }

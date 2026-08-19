@@ -1,0 +1,12 @@
+[package]
+name = "rusty-whale-verify"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+description = "Pluggable verify system for rusty-whale"
+
+[dependencies]
+tokio = { version = "1", features = ["full"] }
+serde = { version = "1", features = ["derive"] }
+anyhow = "1"
+async-trait = "0.1"
