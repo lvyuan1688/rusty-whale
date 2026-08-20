@@ -24,6 +24,7 @@ async-trait = "0.1"
 members = [
     "crates/rusty-whale-core",
     "crates/rusty-whale-provider",
+    "crates/prompt-template",
     "crates/rusty-whale-verify",
     "crates/rusty-whale-tui",
 ]
