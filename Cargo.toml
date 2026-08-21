@@ -27,4 +27,5 @@ members = [
     "crates/prompt-template",
     "crates/rusty-whale-verify",
     "crates/rusty-whale-tui",
+    "crates/error-context",
 ]
